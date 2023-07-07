@@ -1,0 +1,371 @@
+body {
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+    background: #f0f3fa;
+}
+
+#bg {
+    /* background-image: url('../image/bg.jpg'); */
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bg h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+#welcome {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-header {
+    background: #2196f3;
+    padding: 5px 0;
+    border-bottom: 1px solid #3131315e;
+}
+
+.news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: #ffff;
+    width: 80%;
+}
+
+.header-menu {
+    position: relative;
+    /* box-shadow: 0 2px 5px 0 #00000036; */
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+    position: absolute;
+    left: 35px;
+    top: 56vh;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.main-menu a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 20px;
+}
+
+
+/* background image */
+
+.slider-width {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: gray;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.heading-sect {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+
+.head-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.latest-news-ul {
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+}
+
+
+/* second list */
+
+.event-list {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: gray;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+/* .flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    flex-direction: row;
+} */
+
+.upcoming-event-list {
+    padding: 0;
+    list-style: none;
+}
+
+.upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.event-date {
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+    color: white;
+    padding: 0 8px;
+}
+
+.notice-board {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: gray;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.notice-board-list {
+    padding: 0;
+    list-style: none;
+    line-height: 40px;
+}
+
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+
+/* principles */
+
+.Our-Principles {
+    list-style-type: none;
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.useful-info-ul a {
+    text-decoration: none;
+    columns: black;
+    font-weight: bold;
+}
+
+.useful-info-ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+
+.useful-info-ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.gov-sec-style {}
+
+.governor-name {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.governor-description {
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.governor img {
+    width: 100%;
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+}
+
+.width-60 {
+    width: 60%;
+    float: left;
+}
+
+#governor {
+    margin-left: 5px;
+}
+
+.gov-sec-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+
+.about-us {
+    list-style-type: none;
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.certificate {
+    list-style-type: none;
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.gallery-head-style {
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+    border: 1px solid #cfcfcf;
+    padding: 2px 0;
+}
+
+.width-25 {
+    width: 25%;
+    float: left;
+}
+
+.gallery-img {
+    height: 250px;
+    width: auto;
+}
+
+
+/* footer */
+
+.footer {
+    background: #232f3e;
+    padding: 50px;
+}
+
+.quicklink-heading {
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+/* .container ul li  {
+    list-style: none;
+} */
+
+.quicklink-menu li a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.get-in-touch {
+    list-style: none;
+}
+
+.get-in-touch li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .get-in-touch li {
+    list-style: none;
+} */

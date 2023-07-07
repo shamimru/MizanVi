@@ -1,0 +1,26 @@
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 70vh;
+    width: 100vw;
+    animation: animate 16s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url("../../image/bg2.jpg");
+    }
+    25% {
+        background-image: url("../../image/bg3.jpg");
+    }
+    50% {
+        background-image: url("../../image/bg4.jpg");
+    }
+    75% {
+        background-image: url("../../image/bg5.jpg");
+    }
+    100% {
+        background-image: url("../../image/bg.jpg");
+    }
+}
